@@ -7,11 +7,11 @@ class Goclone < Formula
 
   if OS.mac?
     url "https://github.com/imthaghost/goclone/releases/download/v1.0.0/goclone_1.0.0_macOS-64bit.tar.gz"
-    sha256 "ce0a1baa60a799580b2cb9e5b51a79f4e7979895a9718ed762bcdb5a90a9df63"
+    sha256 "9a75c6b5c60d39a5209a7aa0d16afb7d3f7c2fba7a3141d8515db5bb676f86e9"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/imthaghost/goclone/releases/download/v1.0.0/goclone_1.0.0_Linux-64bit.tar.gz"
-      sha256 "0308173497d7bb3284c63dbe7586216c8a8d4e00baa7336167d6a1af8f7a3035"
+      sha256 "54f3d8008451f546d9f2c4f01319465ec0576b3c05869d66fc4b02d6eceb886a"
     end
   end
 
