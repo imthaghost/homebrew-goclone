@@ -2,16 +2,16 @@
 class Goclone < Formula
   desc "Website Cloner - Utilizes powerful go routines to clone websites to your computer within seconds."
   homepage "https://github.com/imthaghost/goclone"
-  version "1.1.1"
+  version "1.1.3"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/imthaghost/goclone/releases/download/v1.1.1/goclone_1.1.1_macOS-64bit.tar.gz"
-    sha256 "989b98bd628cf6342c8e74ca5a9ce0a2527babc73001d5abf6233ae4ce4ba5fa"
+    url "https://github.com/imthaghost/goclone/releases/download/v1.1.3/goclone_1.1.3_macOS-64bit.tar.gz"
+    sha256 "47046eb669a0e7263b772f2cdf092af65c28307506cd2c6a913f3ea453c23dc8"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/imthaghost/goclone/releases/download/v1.1.1/goclone_1.1.1_Linux-64bit.tar.gz"
-      sha256 "261ef861db36ffd446bbd184ce376d26579d7cdf6f98b7e75b44157b8ad4ca84"
+      url "https://github.com/imthaghost/goclone/releases/download/v1.1.3/goclone_1.1.3_Linux-64bit.tar.gz"
+      sha256 "8f5a4a97c6829673c19d0a1418f12d9c83c976f2db71b5a0558441b865edfabe"
     end
   end
 
